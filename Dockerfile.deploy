@@ -1,0 +1,5 @@
+FROM openjdk:17-jdk-alpine
+
+EXPOSE 25565
+
+CMD ["java", "-jar", "/target/foo-jenkins-plugin-0.0.1-SNAPSHOT.jar"]

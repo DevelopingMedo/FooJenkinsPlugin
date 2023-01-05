@@ -1,0 +1,8 @@
+name: Foo Jenkins Plugin
+version: '${project.version}'
+main: de.developingmedo.sandbox.jenkinsplugin.foojenkinsplugin.FooJenkinsPlugin
+api-version: 1.19
+
+commands:
+  hello:
+    description: "Hello World"
